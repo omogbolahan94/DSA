@@ -1,6 +1,8 @@
 def binary_search(lst, target):
     """
-    Binary search can onl be applied to a sorted list only
+    Binary search can only be applied to a sorted list only
+
+    Returns the index of the target if found else return None
     """
     first = 0
     last = len(lst) - 1
